@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF251F7C19EBB7D3008405DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF251F7B19EBB7D3008405DF /* main.m */; };
+		DF251F7F19EBB7D3008405DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF251F7E19EBB7D3008405DF /* AppDelegate.m */; };
+		DF251F8219EBB7D3008405DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF251F8119EBB7D3008405DF /* ViewController.m */; };
+		DF251F8519EBB7D3008405DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF251F8319EBB7D3008405DF /* Main.storyboard */; };
+		DF251F8719EBB7D3008405DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF251F8619EBB7D3008405DF /* Images.xcassets */; };
+		DF251F8A19EBB7D3008405DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF251F8819EBB7D3008405DF /* LaunchScreen.xib */; };
+		DF251F9619EBB7D3008405DF /* siliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF251F9519EBB7D3008405DF /* siliderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF251F9019EBB7D3008405DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF251F6E19EBB7D3008405DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF251F7519EBB7D3008405DF;
+			remoteInfo = silider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF251F7619EBB7D3008405DF /* silider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = silider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF251F7A19EBB7D3008405DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF251F7B19EBB7D3008405DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF251F7D19EBB7D3008405DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF251F7E19EBB7D3008405DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF251F8019EBB7D3008405DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF251F8119EBB7D3008405DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF251F8419EBB7D3008405DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF251F8619EBB7D3008405DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF251F8919EBB7D3008405DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF251F8F19EBB7D3008405DF /* siliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF251F9419EBB7D3008405DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF251F9519EBB7D3008405DF /* siliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = siliderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF251F7319EBB7D3008405DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF251F8C19EBB7D3008405DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF251F6D19EBB7D3008405DF = {
+			isa = PBXGroup;
+			children = (
+				DF251F7819EBB7D3008405DF /* silider */,
+				DF251F9219EBB7D3008405DF /* siliderTests */,
+				DF251F7719EBB7D3008405DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF251F7719EBB7D3008405DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF251F7619EBB7D3008405DF /* silider.app */,
+				DF251F8F19EBB7D3008405DF /* siliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF251F7819EBB7D3008405DF /* silider */ = {
+			isa = PBXGroup;
+			children = (
+				DF251F7D19EBB7D3008405DF /* AppDelegate.h */,
+				DF251F7E19EBB7D3008405DF /* AppDelegate.m */,
+				DF251F8019EBB7D3008405DF /* ViewController.h */,
+				DF251F8119EBB7D3008405DF /* ViewController.m */,
+				DF251F8319EBB7D3008405DF /* Main.storyboard */,
+				DF251F8619EBB7D3008405DF /* Images.xcassets */,
+				DF251F8819EBB7D3008405DF /* LaunchScreen.xib */,
+				DF251F7919EBB7D3008405DF /* Supporting Files */,
+			);
+			path = silider;
+			sourceTree = "<group>";
+		};
+		DF251F7919EBB7D3008405DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF251F7A19EBB7D3008405DF /* Info.plist */,
+				DF251F7B19EBB7D3008405DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF251F9219EBB7D3008405DF /* siliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF251F9519EBB7D3008405DF /* siliderTests.m */,
+				DF251F9319EBB7D3008405DF /* Supporting Files */,
+			);
+			path = siliderTests;
+			sourceTree = "<group>";
+		};
+		DF251F9319EBB7D3008405DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF251F9419EBB7D3008405DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF251F7519EBB7D3008405DF /* silider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF251F9919EBB7D3008405DF /* Build configuration list for PBXNativeTarget "silider" */;
+			buildPhases = (
+				DF251F7219EBB7D3008405DF /* Sources */,
+				DF251F7319EBB7D3008405DF /* Frameworks */,
+				DF251F7419EBB7D3008405DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = silider;
+			productName = silider;
+			productReference = DF251F7619EBB7D3008405DF /* silider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF251F8E19EBB7D3008405DF /* siliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF251F9C19EBB7D3008405DF /* Build configuration list for PBXNativeTarget "siliderTests" */;
+			buildPhases = (
+				DF251F8B19EBB7D3008405DF /* Sources */,
+				DF251F8C19EBB7D3008405DF /* Frameworks */,
+				DF251F8D19EBB7D3008405DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF251F9119EBB7D3008405DF /* PBXTargetDependency */,
+			);
+			name = siliderTests;
+			productName = siliderTests;
+			productReference = DF251F8F19EBB7D3008405DF /* siliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF251F6E19EBB7D3008405DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Şahin Dirim";
+				TargetAttributes = {
+					DF251F7519EBB7D3008405DF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DF251F8E19EBB7D3008405DF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DF251F7519EBB7D3008405DF;
+					};
+				};
+			};
+			buildConfigurationList = DF251F7119EBB7D3008405DF /* Build configuration list for PBXProject "silider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF251F6D19EBB7D3008405DF;
+			productRefGroup = DF251F7719EBB7D3008405DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF251F7519EBB7D3008405DF /* silider */,
+				DF251F8E19EBB7D3008405DF /* siliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF251F7419EBB7D3008405DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF251F8519EBB7D3008405DF /* Main.storyboard in Resources */,
+				DF251F8A19EBB7D3008405DF /* LaunchScreen.xib in Resources */,
+				DF251F8719EBB7D3008405DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF251F8D19EBB7D3008405DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF251F7219EBB7D3008405DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF251F8219EBB7D3008405DF /* ViewController.m in Sources */,
+				DF251F7F19EBB7D3008405DF /* AppDelegate.m in Sources */,
+				DF251F7C19EBB7D3008405DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF251F8B19EBB7D3008405DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF251F9619EBB7D3008405DF /* siliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF251F9119EBB7D3008405DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF251F7519EBB7D3008405DF /* silider */;
+			targetProxy = DF251F9019EBB7D3008405DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF251F8319EBB7D3008405DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF251F8419EBB7D3008405DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF251F8819EBB7D3008405DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF251F8919EBB7D3008405DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF251F9719EBB7D3008405DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF251F9819EBB7D3008405DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF251F9A19EBB7D3008405DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = silider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF251F9B19EBB7D3008405DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = silider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF251F9D19EBB7D3008405DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = siliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/silider.app/silider";
+			};
+			name = Debug;
+		};
+		DF251F9E19EBB7D3008405DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = siliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/silider.app/silider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF251F7119EBB7D3008405DF /* Build configuration list for PBXProject "silider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF251F9719EBB7D3008405DF /* Debug */,
+				DF251F9819EBB7D3008405DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF251F9919EBB7D3008405DF /* Build configuration list for PBXNativeTarget "silider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF251F9A19EBB7D3008405DF /* Debug */,
+				DF251F9B19EBB7D3008405DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF251F9C19EBB7D3008405DF /* Build configuration list for PBXNativeTarget "siliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF251F9D19EBB7D3008405DF /* Debug */,
+				DF251F9E19EBB7D3008405DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF251F6E19EBB7D3008405DF /* Project object */;
+}
